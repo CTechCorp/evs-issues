@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: EVS Community Discussions
+    url: https://github.com/CTechCorp/evs-issues/discussions
+    about: Please ask and answer questions here.
+  - name: Support with Proprietary Information
+    url: mailto:support@ctech.com
+    about: If you need direct support with data or images of a proprietary nature, email support@ctech.com
