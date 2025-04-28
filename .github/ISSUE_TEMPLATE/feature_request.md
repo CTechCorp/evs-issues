@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for EVS
 title: ''
-labels: ''
+labels: enhancement, needs-triage
 assignees: ''
 
 ---
