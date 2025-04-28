@@ -11,4 +11,5 @@ It serves three primary purposes.
 3. Details any known [Security issues](https://github.com/CTechCorp/evs-issues/discussions/categories/security-alert) within C Tech Software. This allows us to disclose known vulnerabilities within EVS in a timely manner.
 
 
-### Note: All information on this site is public. Do not include any proprietary or confidential information or data
+> [!CAUTION]
+> All information on this site is public. Do not include any proprietary or confidential information or data.
