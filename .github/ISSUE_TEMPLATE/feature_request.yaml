@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an idea for EVS
+title: "Enter Feature Summary..."
+type: "feature"
+labels: ["needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+         > [!CAUTION]
+         > All information on this site is public. Do not include any proprietary or confidential information or data
+  - type: textarea
+    id: basic-description
+    attributes:
+      label: Is your feature request related to a problem? Please describe.
+      description: Provide a clear description of the problem this issue tries to solve.
+      placeholder: What happened was...
+      value: "I'm always frustrated when [...]"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your proposed solution
+      description: Explain how you'd like this new feature to work
+      placeholder: When I do [...], [...] should happen...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What alternatives have you considered?
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: I've also considered...
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More information
+      description: Please include screenshots or more context to help explain your idea.
+    validations:
+      required: false
+      
