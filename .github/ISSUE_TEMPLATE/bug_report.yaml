@@ -49,9 +49,12 @@ body:
       placeholder: 2025.4.2
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: more-info
     attributes:
-      value: Please include screenshots or more context to help explain your issue.
+      label: More information
+      description: Please include screenshots or more context to help explain your issue.
+    validations:
+      required: false
       
 
