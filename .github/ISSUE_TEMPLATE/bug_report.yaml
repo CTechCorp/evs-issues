@@ -1,7 +1,8 @@
 name: Bug report
 description: Report an issue to help us improve
-title: "Bug: "
-labels: ["bug", "needs-triage"]
+title: ""
+type: "bug"
+labels: ["needs-triage"]
 assignees: []
 
 body:
