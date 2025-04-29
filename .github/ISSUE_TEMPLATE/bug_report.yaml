@@ -11,14 +11,6 @@ body:
       value: |
          > [!CAUTION]
          > All information on this site is public. Do not include any proprietary or confidential information or data
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details (Optional)
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
