@@ -44,7 +44,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: What version of EVS are you running
+      label: What version of EVS are you running?
       description: Enter the version of EVS you are running
       placeholder: 2025.4.2
     validations:
@@ -52,7 +52,6 @@ body:
   - type: markdown
     id: more-info
     attributes:
-      label: Include context and more information
       value: Please include screenshots or more context to help explain your issue.
       
 
