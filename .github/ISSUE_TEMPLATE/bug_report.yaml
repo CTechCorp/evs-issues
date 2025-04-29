@@ -1,0 +1,58 @@
+name: Bug report
+about: Report an issue to help us improve
+title: ''
+labels: bug, needs-triage
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+         > [!CAUTION]
+         > All information on this site is public. Do not include any proprietary or confidential information or data
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details (Optional)
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: What happened was...
+      value: "What happened was..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Explain how to make this bug occur
+      placeholder: To Reproduce, go to ...
+      value: | 
+        Steps to reproduce the behavior:
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error    
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: What version of EVS are you running
+      description: Enter the version of EVS you are running
+      placeholder: 2025.4.2
+    validations:
+      required: true
+  - type: markdown
+    id: more-info
+    attributes:
+      label: Include context and more information
+      value: Please include screenshots or more context to help explain your issue.
+      
+
